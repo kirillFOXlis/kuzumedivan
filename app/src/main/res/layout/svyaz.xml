@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040303">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="489dp"
+        android:layout_height="57dp"
+        tools:layout_editor_absoluteX="-39dp"
+        tools:layout_editor_absoluteY="669dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0202"
+        android:text="Очистить"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0202"
+        android:text="Очистить"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F1EAEA"
+        android:fontFamily="sans-serif-black"
+        android:text="Обратная связь"
+        android:textColorLink="#BB6161"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAFAFA"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:text="Имя"
+        android:textColor="#FFFDFD"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:text="E-mail"
+        android:textColor="#FBF7F7"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:text="Текст сообщения"
+        android:textColor="#FFF9F9"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0202"
+        android:text="Очистить"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="#1C619F"
+        app:srcCompat="@android:drawable/ic_menu_call"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="136dp"
+        android:layout_height="129dp"
+        android:tint="#1C619F"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="145dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#229FE1"
+        android:fontFamily="serif"
+        android:text="Отправить"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EDD0D0"
+        android:buttonTint="#DB2929"
+        android:outlineAmbientShadowColor="#F8EAEA"
+        android:shadowColor="#B64646"
+        android:text="Функционал приложения"
+        android:textColor="#EFEAEA"
+        android:textStyle="bold|italic"
+        android:thumbTint="#7FED11"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Рекомендации для улучшения"
+        android:textColor="#FBFAFA"
+        android:textStyle="bold|italic"
+        android:thumbTint="#7CE811"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

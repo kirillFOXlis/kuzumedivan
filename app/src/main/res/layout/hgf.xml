@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="69dp"
+        android:layout_height="56dp"
+        android:foregroundTint="#843232"
+        android:outlineAmbientShadowColor="#721414"
+        android:outlineSpotShadowColor="#B61515"
+        android:tint="#2C53B6"
+        app:srcCompat="@android:drawable/arrow_up_float"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="194dp"
+        android:layout_height="167dp"
+        android:background="#2B4BAB"
+        android:tint="#827C7C"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="52dp"
+        android:layout_height="25dp"
+        android:background="#F6F4F4"
+        android:fontFamily="sans-serif-black"
+        android:text="Фото"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Информация о приложении:"
+        android:textColor="#F8F1F1"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Создает фотографии"
+        android:textColor="#F1E8E8"
+        android:textColorHighlight="#961E1E"
+        android:textColorHint="#C61414"
+        android:textColorLink="#D61212"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F1E7E7"
+        android:fontFamily="serif"
+        android:outlineAmbientShadowColor="#B24141"
+        android:outlineSpotShadowColor="#CF2929"
+        android:shadowColor="#C21919"
+        android:text="Возможности"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#141313"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="1. Фото/видео 4к"
+        android:textColor="#F1EAEA"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="2. Ии дорисовка"
+        android:textColor="#EBE1E1"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="3. Может снимать в замедленном режиме"
+        android:textColor="#EFE3E3"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E88686"
+        android:foregroundTint="#501414"
+        android:tint="#1C619F"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="69dp"
+        android:layout_height="56dp"
+        android:outlineAmbientShadowColor="#721414"
+        android:outlineSpotShadowColor="#B61515"
+        android:tint="#2C53B6"
+        app:srcCompat="@android:drawable/arrow_up_float"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:tint="#1543EB"
+        app:srcCompat="@android:drawable/btn_star"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:tint="#1543EA"
+        app:srcCompat="@android:drawable/btn_star"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:tint="#1441E2"
+        app:srcCompat="@android:drawable/btn_star"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="489dp"
+        android:layout_height="57dp"
+        tools:layout_editor_absoluteX="-39dp"
+        tools:layout_editor_absoluteY="669dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
